@@ -75,8 +75,8 @@ class MyInfo extends StatelessWidget {
 
                 ),
               ),
-              SizedBox(height: 15,),
-              Text(
+              const SizedBox(height: 15,),
+              const Text(
                 'Elancer FLUTTER Trainee',
                 style: TextStyle(
                   fontFamily: 'Almarai',
@@ -98,8 +98,8 @@ class MyInfo extends StatelessWidget {
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
                   margin: const EdgeInsets.symmetric(
                       vertical: 19.0, horizontal: 25.0),
-                  child: ListTile(
-                    leading: const Icon(
+                  child: const ListTile(
+                    leading: Icon(
                       Icons.phone,
                       color: Colors.teal,
                     ),
@@ -118,8 +118,8 @@ class MyInfo extends StatelessWidget {
 
                 margin:
                     const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: ListTile(
-                  leading: const Icon(
+                child: const ListTile(
+                  leading: Icon(
                     Icons.email,
                     color: Colors.teal,
                   ),
